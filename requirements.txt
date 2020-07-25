@@ -16,7 +16,7 @@ Jinja2==2.11.2
 lazy-object-proxy==1.4.3
 MarkupSafe==1.1.1
 mccabe==0.6.1
-mysqlclient==1.4.6
+mysqlclient==2.0.1
 pylint==2.5.3
 requests==2.22.0
 six==1.14.0

@@ -3467,7 +3467,7 @@ ol {
 	}
 }
 
-/* Login and Register seccion */
+/* Login, Register and procfile seccion */
 .login, .register {
 	width: 400px;
 	background-color: #ffffff;
@@ -3475,7 +3475,13 @@ ol {
 	margin: 50px auto;
 }
 
-.login-body, .register-body {
+.procfile {
+	width: 400px;
+	background-color: #ffffff;
+	margin: 50px auto;
+}
+
+.login-body, .register-body .procfile-body{
 	position: relative;
 	align-items: center;
 	margin-top: 10px;

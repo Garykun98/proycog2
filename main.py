@@ -79,7 +79,7 @@ def home():
 
 @app.route('/profile') #(profile.html)
 def profile():
-    return render_template('procfile.html', data = account)
+    return render_template('procfile.html', data = account, saldo = saldo)
 
 @app.route('/logout') #(index.html)
 def logout():  
@@ -87,9 +87,9 @@ def logout():
     print(account)
     return redirect(url_for('index'))
 
-@app.route('/carrito')
+@app.route('/carrito') #(carrito.html)
 def carrito():
-    return render_template('index.html')
+    return render_template('carrito.html', data = account, saldo = saldo)
 ##run
 if __name__ == '__main__':
     app.run(port=3000, debug=True)

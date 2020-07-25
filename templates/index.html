@@ -1,6 +1,6 @@
 {% extends 'layout.html' %}
 
-{% block title %}Ogani{% endblock %}
+{% block title %}eOrgani{% endblock %}
 
 {% block content %}
 
@@ -13,14 +13,11 @@
                         <div class="hero__categories__all">
                             <i class="fa fa-bars"></i>
                             <span>Todas las Categorías</span>
+                            
                         </div>
                         <ul>
                             <li><a href="#">Abarrotes</a></li>
-                            <li><a href="#">Carnes</a></li>
                             <li><a href="#">Bebidas</a></li>
-                            <li><a href="#">Farmacia</a></li>
-                            <li><a href="#">Frutas y Vegetales</a></li>
-                            <li><a href="#">Lacteos</a></li>
                         </ul>
                     </div>
                 </div>
@@ -104,16 +101,6 @@
                     <div class="section-title">
                         <h2>Productos destacados</h2>
                     </div>
-                    <div class="featured__controls">
-                        <ul>
-                            <li class="active" data-filter="*">Todo</li>
-                            <li data-filter=".medicamentos">Medicamentos</li>
-                            <li data-filter=".carnefresca">Carne fresca</li>
-                            <li data-filter=".higiene">Higiene personal</li>
-                            <li data-filter=".frutas">Frutas</li>
-                            <li data-filter=".conservas">Conservas</li>    
-                        </ul>
-                    </div>
                 </div>
             </div>
             <div class="row featured__filter">
@@ -121,7 +108,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="static/img/featured/feature-1.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="{{ url_for('login') }}"><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
@@ -134,7 +121,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="static/img/featured/feature-2.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="{{ url_for('login') }}"><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
@@ -147,7 +134,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="static/img/featured/feature-3.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="{{ url_for('login') }}"><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
@@ -160,7 +147,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="static/img/featured/feature-4.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="{{ url_for('login') }}"><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
@@ -173,7 +160,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="static/img/featured/feature-5.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="{{ url_for('login') }}"><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
@@ -186,7 +173,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="static/img/featured/feature-6.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="{{ url_for('login') }}"><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
@@ -199,7 +186,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="static/img/featured/feature-7.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="{{ url_for('login') }}"><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
@@ -212,7 +199,7 @@
                     <div class="featured__item">
                         <div class="featured__item__pic set-bg" data-setbg="static/img/featured/feature-8.jpg">
                             <ul class="featured__item__pic__hover">
-                                <li><a href="#"><i class="fa fa-shopping-cart"></i></a></li>
+                                <li><a href="{{ url_for('login') }}"><i class="fa fa-shopping-cart"></i></a></li>
                             </ul>
                         </div>
                         <div class="featured__item__text">
